@@ -6,3 +6,10 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8080/eureka
+
+jp:
+  mysql:
+    drivername: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/devjp?useSSL=false
+    userName: root
+    password: 1234
